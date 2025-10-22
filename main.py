@@ -98,7 +98,7 @@ class ProjectManager:
             print("4. Выход")
             print("=" * 50)
 
-            choice = input("Выберите действие (1-4): ").strip()
+            choice = input("Выберите действие (1-4): ")
 
             if choice == "1":
                 self.start_once()
